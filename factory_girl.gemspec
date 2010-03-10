@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Joe Ferris"]
-  s.date = %q{2009-10-16}
+  s.date = %q{2010-03-09}
   s.description = %q{factory_girl provides a framework and DSL for defining and
                      using factories - less error-prone, more explicit, and
                      all-around easier to work with than fixtures.}
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://thoughtbot.com/projects/factory_girl}
   s.rdoc_options = ["--line-numbers", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.6}
   s.summary = %q{factory_girl provides a framework and DSL for defining and using model instance factories.}
   s.test_files = ["spec/factory_girl/aliases_spec.rb", "spec/factory_girl/attribute/association_spec.rb", "spec/factory_girl/attribute/callback_spec.rb", "spec/factory_girl/attribute/dynamic_spec.rb", "spec/factory_girl/attribute/static_spec.rb", "spec/factory_girl/attribute_spec.rb", "spec/factory_girl/factory_spec.rb", "spec/factory_girl/proxy/attributes_for_spec.rb", "spec/factory_girl/proxy/build_spec.rb", "spec/factory_girl/proxy/create_spec.rb", "spec/factory_girl/proxy/stub_spec.rb", "spec/factory_girl/proxy_spec.rb", "spec/factory_girl/sequence_spec.rb", "spec/factory_girl/syntax/blueprint_spec.rb", "spec/factory_girl/syntax/generate_spec.rb", "spec/factory_girl/syntax/make_spec.rb", "spec/factory_girl/syntax/sham_spec.rb", "spec/integration_spec.rb"]
 
